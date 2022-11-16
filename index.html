@@ -57,14 +57,12 @@
 
         <!--Hero-->
 <section  class="hero">
-    <div class="overlay">
-<h1 class="hero-title">Ефективні рішення для <br /> вашого бізнесу</h1>
-<button class="hero-button" type="button">
-    Замовити послугу
-</button>
-</div>
+    <h1 class="hero-title">Ефективні рішення для <br /> вашого бізнесу</h1>
+    <button class="hero-button" type="button">
+        Замовити послугу
+    </button>
             
-        </section>
+</section>
 
      
 <!-- Features -->
@@ -75,7 +73,15 @@
     <ul class="list">
 
         <!-- feature-1 -->
-        <li class="features-item">
+        <li class="feature">
+
+            <div class="feature-container">
+                <svg class="features-item" width="65" height="70">
+                    <use href="./images/symbol-defs.svg#icon-antenna">
+                    </use>
+                </svg>
+            </div>
+            
             <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="feature-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
@@ -83,7 +89,15 @@
         </li>
 
         <!-- feature-2 -->
-        <li class="features-item">
+        <li class="feature">
+
+            <div class="feature-container">
+                <svg class="features-item" width="67" height="70">
+                    <use href="./images/symbol-defs.svg#icon-clock">
+                    </use>
+                </svg>
+            </div>
+            
             <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="feature-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
@@ -91,7 +105,15 @@
         </li>
 
         <!-- feature-3 -->
-        <li class="features-item">
+        <li class="feature">
+
+            <div class="feature-container">
+                <svg class="features-item" width="70" height="54">
+                    <use href="./images/symbol-defs.svg#icon-diagram">
+                    </use>
+                </svg>
+            </div>
+            
             <h3 class="feature-title">ПЛАНУВАННЯ</h3>
             <p class="feature-text">
                 Так само консультація з широким активом значною мірою зумовлює.
@@ -99,7 +121,15 @@
         </li>
 
         <!-- feature-4 -->
-        <li class="features-item">
+        <li class="feature">
+
+            <div class="feature-container">
+                <svg class="features-item" width="70" height="70">
+                    <use href="./images/symbol-defs.svg#icon-astronaut">
+                    </use>
+                </svg>
+            </div>
+            
             <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="feature-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -394,16 +424,14 @@
 
     <!--  Footer -->
     <footer class="footer">
-
-        <ul class="list">
-
-            <!-- address -->    
-            <li class="flex-item">
-              
+        <div class="container">
+            <div class="list">
+                <!-- address -->
+                <div>
                     <!-- Logo -->
                     <a class="webstudio-footer underline" href="./index.html"><span class="web">Web</span><span
                             class="studio">Studio</span></a>
-
+                
                     <!-- address -->
                     <address class="address">
                         <ul class="link-footer">
@@ -413,53 +441,55 @@
                             <li class="address-link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                             <li class="address-link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
                         </ul>
-
+                
                     </address>
-            </li>
-
-            <!-- Social actions -->
-            <li class="flex-social">
-                    <h2 class="social-title">
-                        ПРИЄДНУЙТЕСЬ
-                    </h2>
-                    <ul class="actions">
-                        <li class="actions-retreat">
-                            <a  class="social-link" href="https://www.instagram.com/" target="_blank">
-                                <svg class="social-icon" width="22" height="22">
-                                    <use href="./images/symbol-defs.svg#icon-instagram">
-                                    </use>
-                                </svg>
-                            </a>
-                           
-                        </li>
-                        <li class="actions-retreat">
-                            <a class="social-link" href="https://twitter.com/" target="_blank">
-                                <svg class="social-icon" width="22" height="22">
-                                    <use href="./images/symbol-defs.svg#icon-twitter">
-                                    </use>
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li class="actions-retreat">
-                            <a class="social-link" href="https://www.facebook.com/" target="_blank">
-                                <svg class="social-icon" width="22" height="22">
-                                    <use href="./images/symbol-defs.svg#icon-facebook">
-                                    </use>
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li class="actions-retreat">
-                            <a class="social-link" href="https://www.linkedin.com/ target="_blank">
-                                <svg class="social-icon" width="22" height="22">
-                                    <use href="./images/symbol-defs.svg#icon-linkedin">
-                                    </use>
-                                </svg>
-                            </a>
-                        </li>
-        </ul>
-        
+                </div>
+                
+                
+                <div class="socials">
+                    <!-- Social actions -->
+                    <p2 class="social-title">
+                            приєднуйтесь
+                    </p2>
+                        <ul class="actions">
+                            <li class="actions-retreat">
+                                <a class="social-link" href="https://www.instagram.com/" target="_blank">
+                                    <svg class="social-icon" width="22" height="22">
+                                        <use href="./images/symbol-defs.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                
+                            </li>
+                            <li class="actions-retreat">
+                                <a class="social-link" href="https://twitter.com/" target="_blank">
+                                    <svg class="social-icon" width="22" height="22">
+                                        <use href="./images/symbol-defs.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                
+                            <li class="actions-retreat">
+                                <a class="social-link" href="https://www.facebook.com/" target="_blank">
+                                    <svg class="social-icon" width="22" height="22">
+                                        <use href="./images/symbol-defs.svg#icon-facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                
+                            <li class="actions-retreat">
+                                <a class="social-link" href="https://www.linkedin.com/ target=" _blank">
+                                    <svg class="social-icon" width="22" height="22">
+                                        <use href="./images/symbol-defs.svg#icon-linkedin">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                </div>
+            </div>
+         </div>
     </footer>
 </body>
 
