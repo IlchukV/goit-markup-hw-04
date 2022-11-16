@@ -546,8 +546,8 @@ background: var(--background-color);
 }
 
 .project-link {
+    display: block;
     text-decoration: none;
-    cursor: pointer;
 }
 
    .project-link:hover,
