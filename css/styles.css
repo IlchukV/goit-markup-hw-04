@@ -204,7 +204,7 @@ body {
     margin-top: 0;
     
     height: 600px;
-    min-width: 1600px;
+    max-width: 1600px;
     text-align: center;
     background-repeat: no-repeat;
     background-color: var(--footer-portfolio-color);
@@ -404,12 +404,14 @@ padding-top: 94px;
 
 /* customers */
 
+.customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .customers-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
-    margin: 0;
-
+    margin-bottom: 50px;
+    
         font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
@@ -419,7 +421,7 @@ padding-top: 94px;
 
 .customers-list {
 display: flex;
-    padding: 0 0 94px;
+    padding: 0 0;
     margin: 0;
     background-color: var(--background-color);
 }
@@ -655,7 +657,8 @@ padding: 0;
 }
 
 .social-title {
-        
+    margin-bottom: 20px;    
+
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -676,8 +679,7 @@ padding: 0;
 
  .actions-retreat {
     margin-right: 10px;
-    margin-top: 20px;
-     }
+}
         .actions-retreat:last-child {
             margin-right: 0;
         }
